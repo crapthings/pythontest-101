@@ -1,0 +1,2 @@
+scrapy runspider mingxing.py --nolog -t json -o - > mingxing_unprocessed.json
+python3 process_mingxing.py
